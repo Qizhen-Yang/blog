@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qizhen-yang.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-10-08T10:42:57.558Z</updated>
+    <title>Qizhen Yang</title>
+    <updated>2020-10-08T10:43:10.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qizhen-yang.github.io"/>
     <link rel="self" href="https://qizhen-yang.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Qizhen Yang的博客</subtitle>
     <logo>https://qizhen-yang.github.io/images/avatar.png</logo>
     <icon>https://qizhen-yang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Qizhen Yang</rights>
 </feed>
