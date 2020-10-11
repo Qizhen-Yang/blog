@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://.</id>
     <title>Qizhen Yang</title>
-    <updated>2020-10-11T03:51:19.973Z</updated>
+    <updated>2020-10-11T03:52:28.495Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://."/>
     <link rel="self" href="https://./atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://./images/avatar.png</logo>
     <icon>https://./favicon.ico</icon>
     <rights>All rights reserved 2020, Qizhen Yang</rights>
+    <entry>
+        <title type="html"><![CDATA[关于这个网站和博客]]></title>
+        <id>https://./post/guan-yu-zhe-ge-wang-zhan-he-bo-ke/</id>
+        <link href="https://./post/guan-yu-zhe-ge-wang-zhan-he-bo-ke/">
+        </link>
+        <updated>2020-10-11T00:43:51.000Z</updated>
+        <content type="html"><![CDATA[<p>2020年3月中旬，我无聊的时候访问了<code>404.com</code>，结果跳转到了Uni Registry的页面，从此我了解了<code>域名</code>这个概念。从此，我准备自己做一个网站。</p>
+<h1 id="类wordpress建站">类Wordpress建站</h1>
+<p>百度搜一下做网站，会出现很多广告，我就在其中找到了凡科建站，并用它的类似Wordpress的<br>
+系统套了一个模板，做了一个华而不实的网站，还赠送一个<code>*.icoc.vc</code>的域名，唯一的缺点就是访问那个域名的时候上方有一个提示，左下角有很大很大的一片广告。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[反复装系统的经验总结]]></title>
         <id>https://./post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/</id>
