@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://qizhen-yang.github.io/blog</id>
+    <id>http://localhost:4000</id>
     <title>Qizhen Yang</title>
-    <updated>2020-10-10T13:27:01.290Z</updated>
+    <updated>2020-10-11T00:25:30.811Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://qizhen-yang.github.io/blog"/>
-    <link rel="self" href="https://qizhen-yang.github.io/blog/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>Qizhen Yang的博客</subtitle>
-    <logo>https://qizhen-yang.github.io/blog/images/avatar.png</logo>
-    <icon>https://qizhen-yang.github.io/blog/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, Qizhen Yang</rights>
     <entry>
         <title type="html"><![CDATA[反复装系统的经验总结]]></title>
-        <id>https://qizhen-yang.github.io/blog/post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/</id>
-        <link href="https://qizhen-yang.github.io/blog/post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/">
+        <id>http://localhost:4000/post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/</id>
+        <link href="http://localhost:4000/post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/">
         </link>
         <updated>2020-10-09T05:11:53.000Z</updated>
         <content type="html"><![CDATA[<p><strong>本文记录了一些我装系统的时候的过程及经验，其中一些坑大家不要踩</strong><br>
