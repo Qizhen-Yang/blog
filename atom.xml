@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qizhen-yang.github.io/blog</id>
     <title>Qizhen Yang</title>
-    <updated>2020-10-22T13:31:28.303Z</updated>
+    <updated>2020-11-22T12:16:12.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qizhen-yang.github.io/blog"/>
     <link rel="self" href="https://qizhen-yang.github.io/blog/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://qizhen-yang.github.io/blog/images/avatar.png</logo>
     <icon>https://qizhen-yang.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, Qizhen Yang</rights>
+    <entry>
+        <title type="html"><![CDATA[Windows下使用Visual Studio Code写C/C++程序]]></title>
+        <id>https://qizhen-yang.github.io/blog/post/windows-xia-shi-yong-visual-studio-code-xie-cccheng-xu/</id>
+        <link href="https://qizhen-yang.github.io/blog/post/windows-xia-shi-yong-visual-studio-code-xie-cccheng-xu/">
+        </link>
+        <updated>2020-11-22T12:13:03.000Z</updated>
+        <content type="html"><![CDATA[<p>一直以来我写C语言都是用的Microsoft Visual C++ 6.0（手动狗头）界面问题一直困扰了我很久。</p>
+<p>然后我开始尝试其它的工具，比如Dev-C++，整体体验很棒，但是由于Windows的编码是GBK，导致总是出一些奇奇怪怪的bug。<br>
+所以我也放弃了Dev-C++，一直用VS Code写代码，Dev-C++当编译器用。多窗口切换很是不爽，我决定只用VS Code写代码。</p>
+<h1 id="准备工作">准备工作</h1>
+<ul>
+<li><a href="https://code.visualstudio.com/Download">VS Code</a></li>
+<li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z">MinGW-w64编译器</a></li>
+</ul>
+<p>安装好这两个东西以后，需要配置系统环境变量<br>
+开始菜单搜索：环境变量》环境变量》选择“Path”》添加》输入MinGW-w64安装目录下的<code>bin</code>目录</p>
+<p>配置好以后重启电脑，在终端（cmd, powershell都可以）里面输入<code>gcc -v</code>，如果出来一串东西，那就说明成功了。</p>
+<h2 id="可选内容">可选内容</h2>
+<ul>
+<li>VS Code的C/C++插件（Microsoft发布的那个）</li>
+<li>Windows Terminal（Microsoft Store里面有）</li>
+</ul>
+<h1 id="编写程序">编写程序</h1>
+<p>首先打开VS Code，随便写一个C++程序，然后按下<kbd>F5</kbd>或<kbd>Ctrl</kbd>+<kbd>F5</kbd>，选择<code>C++(GDB/LLDB)</code>，然后选择<code>g++.exe</code>即可。<br>
+如果程序用了中文路径，那么直接编译就会出错了。这时候需要按下<kbd>Ctrl</kbd>+<kbd>`</kbd>，打开终端（或者在Windows Terminal中也一样），输入<code>gcc [C++文件的路径]</code>就完成编译了，输入<code>.\a.exe</code>就可以打开。也可以用<code>gcc [C++文件的路径] -o [可执行文件的路径]</code>来指定可执行文件的路径。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[反复装系统的经验总结]]></title>
         <id>https://qizhen-yang.github.io/blog/post/fan-fu-zhuang-xi-tong-de-jing-yan-zong-jie/</id>
